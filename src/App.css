@@ -1,0 +1,26 @@
+.App{
+    background-color: white;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 381px;
+    height: 554px;
+    border: 1.37px solid #93A2D361;
+    border-radius: 20.94px;
+   }
+   
+   .buttonr{
+    border-radius: 21px;
+    border: 1px solid #424961;
+    width: 132px;
+   }
+   .cardcontent{
+    width: 295.02px;
+    height: 220px;
+   }
