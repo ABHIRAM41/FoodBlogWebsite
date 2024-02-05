@@ -1,7 +1,7 @@
 .App{
     background-color: white;
 }
-.cards{
+   .cards{
     display: flex;
     flex-direction: column;
 

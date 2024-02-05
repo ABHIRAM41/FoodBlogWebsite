@@ -6,6 +6,7 @@ import insta from "../images/insta.png";
 import {Box,Image,Grid,GridItem,Text,Heading} from '@chakra-ui/react';
 export const Forth = () => {
   return (
+    <Box bg="#F8F8F8">
     <Box bg="#F8F8F8" px={{xl:"100px",lg:"120px",base:"50px"}}>
         <Grid templateColumns='repeat(4, 1fr)' gap={{xl:"20px"}}>
         
@@ -69,6 +70,7 @@ export const Forth = () => {
             </Box>
             </GridItem>
         </Grid>
+    </Box>
     </Box>
   )
 }

@@ -57,9 +57,9 @@ export const Third = () => {
         },
     ];
   return (
-    <Box mx={{xl:"250px",lg:"150px",md:"100",base:"50px"}} >
+    <Box mx={{xl:"250px",lg:"150px",md:"100px",base:"0px"}} display={"flex"} alignItems={"center"}  flexDir={"column"}>
     <Text fontSize={"3rem"} color={"#0E2368"} my={"50px"} mt={"80px"}>Latest Articles</Text>
-    <Grid templateColumns='repeat(3, 1fr)' gap={6}>
+    <Grid templateColumns='repeat(3, 1fr)' gap={20}>
         <GridItem colSpan={{base:3,md:1}}>
             <Cards card={cardDetails[0 + n]} />
         </GridItem><GridItem colSpan={{base:3,lg:1}}>
