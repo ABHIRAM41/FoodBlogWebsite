@@ -13,6 +13,7 @@ const Cards = ({card}) => {
         </p>
         <Button className="buttonr"  borderRadius={25} my="30px">Read More</Button>
       </div>
+      
     </div>
   );
 };
