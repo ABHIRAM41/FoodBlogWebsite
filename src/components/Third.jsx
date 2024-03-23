@@ -35,7 +35,7 @@ export const Third = () => {
         img: dish3,
         title: "Post-workout Recipes",
         content:
-            "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...",
+            "Delicious PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...",
         },
         {
         img: dish4,
