@@ -26,7 +26,6 @@ export const Third = () => {
   const [num, setNum] = useState(0);
   const [n, setN] = useState(0);
 
-
   const cardDetails = [
     {
       img: dish1,
@@ -65,46 +64,6 @@ export const Third = () => {
         "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...",
     },
   ];
-
-    const cardDetails = [
-        {
-        img: dish1,
-        title: "Grilled  Tomatoes at Home",
-        content:
-            "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...",
-        },
-        {
-        img: dish2,
-        title: "Snacks for Travel",
-        content:
-            "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...",
-        },
-        {
-        img: dish3,
-        title: "Post-workout Recipes",
-        content:
-            "Delicious PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...",
-        },
-        {
-        img: dish4,
-        title: "How To Grill Corn",
-        content:
-            "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...",
-        },
-        {
-        img: dish5,
-        title: "Crunchwrap Supreme",
-        content:
-            "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard...",
-        },
-        {
-        img: dish6,
-        title: "Broccoli Cheese Soup",
-        content:
-            "PLorem Ipsum is simply dummy text of the printing and typesetting industry. Loremm Ipsum has been the industry's standard...",
-        },
-    ];
-
   return (
     <Box
       mx={{ xl: "250px", lg: "150px", md: "100px", base: "0px" }}
@@ -160,10 +119,5 @@ export const Third = () => {
         </div>
       </Flex>
     </Box>
-
   );
 };
-
-  )
-}
-
